@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/btn.css">
+    <link rel="stylesheet" href="./assets/css/swiper.css">
+    <link rel="stylesheet" href="./assets/css/resposive.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+</head>
+<body>
+   <div class="app">
+        <div class="header">
+
+            <div class="header__bar">
+                <div class="header__bar--close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+                <div class="header__bar--menu open__bar">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+
+
+            <div class="header__logo">
+                <a href="/">
+                   <div>
+                    <img src="./assets/img/header_logo.svg" alt="">
+                   </div>
+                </a>
+            </div>
+            <div class="header__nav">
+                <div class="header__nav--item">
+                    <a class="header__nav--item-link" href="/news">
+                        NEWS
+                    </a>
+                </div>
+    
+                <div class="header__nav--item">
+                    <span>
+                        EVENTS
+                        <div class="header__nav--item-arrow"></div>
+                    </span>
+    
+                    <div class="header__nav--item-under"></div>
+    
+    
+                    <ul class="header__nav--list">
+                        <div class="header__nav--list-title">
+                            EVENTS
+                        </div>
+                        <li class="header__nav--list-item">
+                            <a>EVENT ARCHIVE</a>
+                        </li> 
+                        <li class="header__nav--list-item">
+                            <a>UPCOMING EVENTS</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="header__nav--item">
+                    <span>
+                        UNIVERSE
+                    <div class="header__nav--item-arrow"></div>
+                    </span>
+    
+                    <div class="header__nav--item-under"> </div>
+    
+    
+                    <ul class="header__nav--list">
+                        <div class="header__nav--list-title">
+                            LORE
+                        </div>
+                        <li class="header__nav--list-item">
+                           <a> WHO IS ULTRAMAN?</a>
+                        </li> 
+                        <li class="header__nav--list-item">
+                            <a>MAJOR HEROES</a>
+                        </li> 
+                        <li class="header__nav--list-item">
+                           <a> MAJOR KAIJU</a>
+                        </li>
+                    </ul>
+                </div>
+    
+                <div class="header__nav--item">
+                    <a class="header__nav--item-link" href="/shop">
+                        SHOP
+                    </a>
+                </div>
+    
+                <div class="header__nav--item">
+                    <span>
+                        CONTACT & FAQ
+                        
+                        <div class="header__nav--item-arrow"></div>
+                    </span>
+    
+                    <div class="header__nav--item-under"></div>
+    
+                    
+                    <ul class="header__nav--list">
+                        <div class="header__nav--list-title">
+                            CONNECT
+                        </div>
+                        <li class="header__nav--list-item">
+                            <a>CONTACT & FAQ</a>
+                        </li> 
+                        <li class="header__nav--list-item">
+                           <a>LICENSING</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+                
+                <div class="header__nav--item res">
+                    <a class="header__nav--item-link" href="/news">
+                        LOGIN/SIGNUP
+                    </a>
+                </div>
+            </div>
+    
+            <div class="header__account">
+                <div class="header__account--decr">
+                    <svg _ngcontent-bjd-c37="" width="50px" height="24px" viewBox="0 0 50 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path _ngcontent-bjd-c37="" d="M8.48765 0L7.87037 8.68525L0 10.9307L7.48457 14.3624L7.02161 23.0053L12.2685 16.4808L19.7531 19.5312L16.3194 13.3456L27.1991 14.659L31.2114 18.8533L50 21.2683L44.213 11.6086L49.5756 1.22864L32.2531 3.68593L27.1991 8.93945L16.821 10.5918L20.679 5.46535L12.8472 7.28714L8.48765 0Z" fill="white"></path><path _ngcontent-bjd-c37="" fill-rule="evenodd" clip-rule="evenodd" d="M18.4535 7.28601L14.7278 12.0926L17.8035 17.516C17.9427 17.7615 17.7144 18.0589 17.4708 17.9496L12.0675 15.5248L8.33187 20.3441C8.16171 20.5637 7.83503 20.4161 7.8548 20.1283L8.28779 13.8286L2.83659 11.3823C2.5924 11.2727 2.61968 10.8836 2.87606 10.8164L8.59793 9.31615L9.02793 3.05995C9.04767 2.77264 9.39002 2.68036 9.52867 2.92488L12.5636 8.27637L18.1839 6.80274C18.4393 6.73577 18.6235 7.06663 18.4535 7.28601ZM9.14117 9.17372L9.49838 3.97648L12.018 8.41941L9.14117 9.17372ZM8.84737 13.4484L9.09911 9.78567L12.3147 8.94255L14.0707 12.0388L11.912 14.8237L8.84737 13.4484ZM12.8603 8.79951L14.4326 11.572L17.5307 7.57492L12.8603 8.79951ZM12.4305 15.0564L14.3659 12.5595L16.9261 17.0739L12.4305 15.0564ZM8.80528 14.0608L11.549 15.2921L8.44545 19.2961L8.80528 14.0608ZM8.55587 9.92811L8.32988 13.2162L3.78834 11.1781L8.55587 9.92811Z" fill="#11161E"></path><path _ngcontent-bjd-c37="" fill-rule="evenodd" clip-rule="evenodd" d="M47.9917 2.7874C48.1354 2.5052 47.9236 2.16414 47.6319 2.20792L32.438 4.48833C32.3617 4.49977 32.2909 4.53799 32.236 4.59728L27.6588 9.54355C27.0784 9.64731 24.1834 10.1645 21.2695 10.679C19.6592 10.9632 18.0436 11.2466 16.8096 11.4589C16.1925 11.565 15.6715 11.6533 15.2947 11.715C15.1061 11.7458 14.9546 11.7698 14.8457 11.7861C14.7692 11.7975 14.7248 11.8032 14.7037 11.8059C14.6905 11.8076 14.6864 11.8081 14.6894 11.8081L14.6577 12.5413L27.6676 13.9018L31.3889 17.9232C31.4447 17.9834 31.5169 18.0219 31.5946 18.0327L48.0542 20.313C48.3588 20.3552 48.5665 19.9835 48.3943 19.7044L43.4558 11.6994L47.9917 2.7874ZM32.6314 5.20092L47.1022 3.02904L42.7778 11.5255C42.712 11.6548 42.7182 11.8138 42.7939 11.9365L47.4533 19.4891L31.783 17.3182L28.0579 13.2927C27.9994 13.2295 27.923 13.1904 27.8414 13.1819L17.4391 12.094C18.5896 11.8949 19.985 11.65 21.3757 11.4044C24.5968 10.8358 27.7946 10.2637 27.87 10.2502C27.8839 10.2477 27.9212 10.2405 27.964 10.2178C27.9876 10.2053 28.0114 10.189 28.0342 10.1681C28.0478 10.1555 28.0592 10.143 28.0686 10.1316L32.6314 5.20092Z" fill="#11161E"></path></svg>
+                    <span>
+                        OPERATIONS ROOM
+                    </span>
+                </div>
+                <div class="header__account--login">
+                    <span>
+                        LOGIN/SIGNUP
+                    </span>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="container">
+            <!-- container header -->
+            <div class="container__header">
+               
+                
+                    <h1 class="container__header--title">
+                        <p>DISCOVER ULTRAMAN CONNECTION</p>
+                        <span>
+                            YOUR LINK TO THE M78 UNIVERSE
+                        </span>
+                    </h1>
+                
+                </video>
+
+                <div class="container__header--content">
+                    Ultraman Connection is the new official international community for Ultraman fans all over the globe
+                </div>
+
+                <div class="container__header--btn">
+                    <div  class="container-m-btn-wrap"><button class="container-m-btn m-btn">SIGN UP NOW</button></div>
+                    <button class="container__header--learn m-btn container-m-btn-normal">LEARN MORE</button>
+                </div>
+            </div>
+
+            <div class="container__slide">
+        
+                    <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper mobile-slide">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="container__slides container__slide-1">
+                                <img src="./assets/img/slide_1_content.png" alt="" class="container__slide-1--content">
+                                <div class="container-m-btn-wrap container__slide-1--button">
+                                    <button class=" m-btn container-m-btn">LEARN MORE</button>
+                                </div>    
+                            </div>
+                        </div>
+
+
+                        <div class="swiper-slide">        
+                            <div class="container__slides container__slide-2">
+                                <img src="./assets/img/slide_2_content.png" alt="" class="container__slide-2--content">
+                                <button class="container__slide-2--button s-btn container-s-btn-normal">RENT NOW</button>
+                                <span>AVAILABLE NOW!</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container__slides container__slide-3">
+                                <div class="container__slide-3--content-l">
+                                    <img src="./assets/img/slide_3_content_l.png" alt="">
+                                </div>
+
+                                <div class="container__slide-3--content-r">
+                                    <div class="container__slide-3-content-text">
+                                        <span class="container__slide-3--content-title">
+                                            NOW AVAILABLE
+                                        </span>
+
+                                        <span class="container__slide-3--content-dec">
+                                            ULTRAMAN TRIGGER
+                                            <br>    
+                                            EPISODE Z MOVIE
+                                        </span>
+                                    </div>
+
+                                    <button class="container__slide-3--button s-btn container-s-btn-normal">RENT NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="container__slides container__slide-4">
+                                <div class="container__slide-4--content">
+                                    <div class="container__slide-4--content-dec">
+                                        OFFICIAL GEAR, LICENSED PRODUCTS
+                                        <br>
+                                        AND EXCLUSIVE ITEMS!.
+                                    </div>
+
+                                    <div class="container__slide-4--content-title">
+                                        <span>THE</span>
+                                        <span>ULTRAMAN CONNECTION</span>
+                                        <br>
+                                        <p>MERCH STORE!</p>
+                                    </div>
+                                </div>
+
+                                <div class="container__slide-4--button">
+                                    <div class="container-l-btn-wrap">
+                                        <button class="l-btn container-l-btn">START SHOPPING NOW</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+
+            </div>
+
+
+            <div class="container__update">
+                <div class="container__update--title">
+                    <h2>ULTRAMAN UPDATES</h2>
+                    <a href="/new">VIEW ALL</a>
+                </div>
+
+                <div class="container__update--content">
+                    <div class="container__update--content-wrap">
+                        <div style="background-image: url('./assets/img/update_1.jpeg');" class="container__update--content-img">
+                            <a href="" class="container__update--content-date">
+                                <p>June 10, 2022</p>
+                                <span>
+                                    ULTRAMAN DECKER AI Unit HANE2 to be Voiced by Hiroshi Tsuchida! Online Announcement Event to be Held on June 16!
+                                </span>
+                            </a>
+                        </div>
+                        <div style="background-image: url('./assets/img/update_2.jpg');" class="container__update--content-img">
+                            <a href="" class="container__update--content-date">
+                                <p>June 6, 2022</p>
+                                <span>
+                                    ULTRAMAN CONNECTION LIVE 1ST ANNIVERSARY: ULTRAMAN MAX SPECIAL ANNOUNCED!
+                                </span>
+                            </a>
+                        </div>
+                        <div style="background-image: url('./assets/img/update_3.jpg')" class="container__update--content-img">
+                            <a href="" class="container__update--content-date">
+                                <p>June 3, 2022</p>
+                                <span>
+                                    SHIN ULTRAMAN TO HAVE NORTH AMERICAN PREMIERE AT FANTASIA FILM FESTIVAL
+                                </span>
+                            </a>
+                        </div>
+                        <div style="background-image: url('./assets/img/update_4.jpg');" class="container__update--content-img">
+                            <a href="" class="container__update--content-date">
+                                <p>June 3, 2022</p>
+                                <span>
+                                    Ultraman Decker Theme Songs Announced!  Opening Theme by SCREEN Mode, Ending Theme by Hironobu Kageyama
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container__info">
+
+                <div class="container__info--wrap">
+                    <h2 class="container__info--title">NEW TO ULTRAMAN?</h2>
+                    <img src="https://assets-global.website-files.com/60bbe7b17107c86f6b966557/6246ad4e481976b49f4fc6fb_divider.svg" loading="lazy" alt="" class="image-37">
+                    <div class="container__info--content">
+                        Ultraman is the Ambassador of Light, a massive giant who has protected the universe since 1966, alongside countless contemporaries. Created by Eiji Tsuburaya, Ultraman is a global hero who has brought joy to audiences around the world for over 55 years.
+                    </div>
+
+                    <div class="container__info--link">
+                        <a href="">WHO IS ULTRAMAN?</a>
+                        <a href="">MAJOR HEROES</a>
+                        <a href="">MAJOR KAIJU</a>
+                    </div>
+                </div>
+                
+
+            </div>
+
+            <div class="container__route">
+                <div class="container__route--wrap">
+                    <div class="container__route--title">
+                        <h2>
+                            START YOUR OWN
+                            <br>
+                            CONNECTION WITH 
+                            <span>ULTRAMAN</span> 
+                        </h2>
+                    </div>
+                    <div class="container__route--link">
+                        <a href="">
+                            <div class="container__route--link-dec">MERCHANDISE</div>
+                        </a>
+                        <a href="">
+                            <div class="container__route--link-dec">EVENTS</div>
+                        </a>
+                        <a href="">
+                            <div class="container__route--link-dec">UNIVERSE</div>
+                        </a>
+                        <a href="">
+                            <div class="container__route--link-dec">MEDIA</div>
+                        </a>
+                    </div>
+
+                    
+
+                    <div class="container__route--link-responsive-wrap">
+                        <div class="container__route--link-responsive c-o-1">
+                            <a href="">
+                                <div class="container__route--link-dec-re">ULTRAMAN MERCH</div>
+                            </a>
+                            <a href="">
+                                <div class="container__route--link-dec-re">EVENTS</div>
+                            </a>
+                        </div>
+                        <div class="container__route--link-responsive c-o-2">
+                            <a href="">
+                                <div class="container__route--link-dec-re">UNIVERSE</div>
+                            </a>
+                            <a href="">
+                                <div class="container__route--link-dec-re">MEDIA</div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+              
+                  <div class="container__route--connect-wrap">
+                        <div class="container__route--connect">
+                            <div class="container__route--connect-l">
+                                <h2 class="container__route--connect-title">
+                                    <p>SUBSCRIBE TO OUR</p>
+                                    NEWSLETTER
+                                </h2>
+            
+                                <div class="container__route--connect-dec">
+                                    GET THE LATEST EVENTS AND UPDATES IN THE ULTRAMAN UNIVERSE RIGHT TO YOUR INBOX!
+                                </div>
+                            </div>
+        
+                            <div class="container__route--connect-r">
+                                <span>You have entered an invalid email.</span>
+                                <input class="container__route--connect-input" type="email" placeholder="Your email address here">
+                                <div class="container__route--connect-btn">
+                                    <div class="container-m-btn-wrap">
+                                        <button class="container-m-btn m-btn" >SUBSCRIBE</button>
+                                    </div>
+                                </div>
+
+
+                            </div>
+        
+                        </div>
+                  </div>
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="footer__wrap">
+               <div class="footer__wrap--content">
+                    <div class="footer__wrap--link">
+                        <span class="footer__wrap--title">QUICK LINKS</span>
+                        <a href="/">News</a>
+                        <a href="/">Universe</a>
+                        <a href="/">Operations Room</a>
+                        <a href="/">Licensing</a>
+                    </div>
+    
+                    <div class="footer__wrap--more">
+                            <div class="footer__wrap--more-content">
+                                <a href="">About</a>
+                                <a href="">Events</a>
+                                <a href="">Shop</a>
+                                <a href="">Privacy Policy</a>
+                            </div>
+        
+                            
+                            <div class="footer__wrap--more-content">
+                                <a href="">Terms of Service</a>
+                                <a href="">Returns & Shipping</a>
+                                <a href="">Contact & FAQ</a>
+                            </div>
+                    </div>
+
+                    <div class="footer__wrap--home">
+                        <a href="/">
+                            <img src="./assets/img/footer_home.svg" alt="">
+                        </a>
+                    </div>
+
+                    <div class="footer__wrap--contact">
+                       <div class="footer__wrap--contact-wrap">
+                          <div>
+                                <span class="footer__wrap--title">CONTACT US</span>
+                                <span class="footer__wrap--contact-content">
+                                    Email us at
+                                    <br>
+                                    support@ultramanconnection.com
+                                </span>
+                          </div>
+                            
+                            <div>
+                                <span class="footer__wrap--title">CONNECT WITH US</span>
+                                <div class="footer__wrap--contact-social">
+                                    <a href="">
+                                        <img src="./assets/img/facebook.svg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./assets/img/instagram.svg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./assets/img/youtube.svg" alt="">
+                                    </a>
+                                    <a href="">
+                                        <img src="./assets/img/twiter.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                       </div>
+
+                    </div>
+
+                    <div class="footer__wrap--tsu-home">
+                        <a href="/">
+                            <img src="./assets/img/tsu_home.svg" alt="">
+                        </a>
+                    </div>
+               </div>
+            </div>
+
+            <div class="footer__copyright">
+                <span>Copyright © 2022 TSUBURAYA PRODUCTIONS | Ultraman Connection Your Link to the M78 Universe Powered by Tsuburaya Productions</span>
+            </div>
+        </div>
+    
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+                const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        speed: 1000,
+
+        autoplay: {
+            delay: 5000
+        },
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+            clickable:true,
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        slidesPerView: 1
+
+        });
+    </script>
+
+    <script>
+        const headerBar = document.querySelector('.header__bar')
+        console.log(headerBar.style);
+        const headerMenu = document.querySelector('.header__bar--menu')
+        const headerClose = document.querySelector('.header__bar--close')
+        const headerNav = document.querySelector('.header__nav')
+
+        headerBar.onclick = function(){
+            headerMenu.classList.toggle('open__bar')
+            headerClose.classList.toggle('open__bar')
+            headerNav.classList.toggle('open__nav')
+        }
+
+    </script>
+</body>
+</html>
